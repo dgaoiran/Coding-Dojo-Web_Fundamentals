@@ -1,0 +1,44 @@
+#box-1 {
+    color: darkturquoise;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+	background-color: white;
+	height: 10px;
+	width: 190px;
+	border: 3px solid darkturquoise;
+    border-radius: 80px;
+	margin-left: 90px;
+    margin-top: 90px;
+	padding: 5px 0px 15px 0px;
+}
+
+#box-2 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 300;
+	background-color: darkturquoise;
+	height: 40px;
+	width: 40px;
+	border: 3px solid darkturquoise;
+    border-radius: 50px;
+    margin-left: 90px;
+    margin-top: 15px;
+} 
+
+#box-3 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
+	height: 28px;
+	width: 225px;
+	border: 2px solid black;
+    margin-left: 90px;
+    margin-top: 15px;
+    padding-top: 10px;
+    box-shadow: 4px 4px black;
+}
