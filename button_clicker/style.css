@@ -1,0 +1,157 @@
+.topnav {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px solid turquoise;
+    width: 1000px;
+    box-shadow: 5px 5px 15px 5px lightslategray;
+    background: linear-gradient(to bottom, #7FFFD4 0%, #7FFFD4 0%, #FFFFFF 100%);
+    /* background-color: black; */
+}
+
+.topnav > h1 {
+    font-size: 45px;
+    color: black;
+    text-shadow: 2px 2px lightslategray;
+}
+
+.topnav input[type=text] {
+    width: 370px;
+    height: 25px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.topnav > button {
+    height: 35px;
+    width: 100px;
+    margin: 0px;
+    border-color: lightslategray;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.topContainer { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
+}
+
+.defineVocab {
+    width: 625px;
+    height: 250px;
+    /* background-color: pink; */
+    background: linear-gradient(to bottom, #F5DEB3 0%, #FFFFFF 50%, #FFFFFF 100%);
+    border: 3px solid #D2B48C;
+    box-shadow: 2px 2px 5px 2px gray;
+}
+
+.defineVocab > h4 {
+    margin-left: 230px;
+    margin-top: -50px;
+    width: 325px;
+    font-size: 20px;
+    /* border: 3px solid violet; */
+}
+
+.vocabulary {
+    vertical-align: text-top;
+    text-align: center;
+    margin:15px;
+    width: 150px;
+    height: 100px;
+    /* border: 3px solid red; */
+} 
+
+.vocabulary > h3 {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.vocabulary > p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.vocabulary > button {
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-top: 10px;
+    width: 110px;
+    height: 40px;
+    border: 1px solid;
+    border-color: lightslategray;
+    box-shadow: 1px 1px 5px 1px lightslategray;
+}
+
+.addDefinition {
+    vertical-align: text-top;
+    text-align: left;
+    width: 325px;
+    height: 215px;
+    padding-left: 20px;
+    margin-left: 23px;
+    background: linear-gradient(to bottom, #F5DEB3 0%, #FFFFFF 50%, #FFFFFF 100%);
+    border: 3px solid #D2B48C;
+    box-shadow: 2px 2px 5px 2px gray;
+}
+
+.addDefinition > p {
+    font-size: 30px;
+    width: 225px;
+}
+
+
+.bottomContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: lightgreen; */
+}
+
+.addDefinition > button  {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    height: 50px;
+    width: 250px;
+    /* background-color: blueviolet; */
+    border-color: lightslategray;
+    box-shadow: 1px 1px 5px 1px lightslategray;
+}
+
+.bottomContainer > h3 {
+    width: 300px;
+    /* border: 2px solid pink; */
+}
+
+.defineVocab-2 {
+    width: 625px;
+    height: 250px;
+    /* background-color: pink; */
+    background: linear-gradient(to bottom, #F5DEB3 0%, #FFFFFF 50%, #FFFFFF 100%);
+    border: 3px solid #D2B48C;
+    box-shadow: 2px 2px 5px 2px gray;
+}
+
+.defineVocab-2 > h4 {
+    margin-left: 230px;
+    margin-top: -50px;
+    font-size: 20px;
+    /* border: 3px solid pink; */
+}
+
+.ghostBox {
+    vertical-align: text-top;
+    text-align: left;
+    width: 335px;
+    height: 215px;
+    padding-left: 20px;
+    margin-left: 15px;
+    border: 3px solid white;
+}

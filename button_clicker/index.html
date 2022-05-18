@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="topnav">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search">
+            <br>
+            <button onclick="portal(this)">Login</button>
+        </div>
+        <br>
+        
+        <div class="topContainer">
+            <div class="defineVocab">
+                <div class="vocabulary">
+                    <h3>ninja</h3>
+                    <p>noun
+                    <br>Plural: <i>ninjas</i>
+                    </p>
+                    <button onclick="displaycount(this, 0)" id="carrier1"><strong>0 Likes</strong>
+                    </button>
+                </div>
+                <h4>A practitioner skilled in the Japanese art of ninjustu</h4>
+            </div>
+            
+            <div class="addDefinition">
+                <p>Dojonary is defined by <strong>YOU</strong></p>
+                <br>
+                <button onclick="remove(this)"><strong>Add Definition</strong></button>
+            </div>
+        </div>
+
+        <div class="bottomContainer">
+            <div class="defineVocab-2">
+                <div class="vocabulary">
+                    <h3>ninja</h3>
+                    <p>noun
+                    <br>Plural: <i>ninjas</i>
+                    </p>
+                    <button onclick="displaycount(this, 1)" id="carrier2"><strong>0 Likes</strong>
+                    </button>
+                </div>
+                <h4>A programmer who breaks down problems with zen-like focus</h4>
+            </div>
+
+            <div class="ghostBox">
+                <br>
+            </div>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
